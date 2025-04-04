@@ -8,7 +8,7 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     margin: 0;
     padding: 20px;
     display: flex;
@@ -20,47 +20,48 @@ body {
 
 /* Main Container */
 section {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
     padding: 2rem;
     width: 90%;
     max-width: 850px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
     text-align: center;
     margin-top: 40px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
 }
 
 /* Header */
 header {
     background: linear-gradient(135deg, #ff6f61, #de3c4b);
     color: white;
-    padding: 2.5rem;
-    border-radius: 15px;
-    margin-bottom: 2rem;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    padding: 3rem;
+    border-radius: 20px;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 header h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     margin: 0;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 header p {
-    margin: 1.2rem 0 0;
-    font-size: 1.3rem;
+    margin: 1.5rem 0 0;
+    font-size: 1.4rem;
 }
 
 /* Section Titles */
 h2 {
     color: #de3c4b;
-    margin-bottom: 1.2rem;
-    font-size: 1.9rem;
-    border-bottom: 3px solid white;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    border-bottom: 4px solid white;
     display: inline-block;
-    padding-bottom: 7px;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* List Items */
@@ -70,16 +71,17 @@ ul {
 }
 
 ul li {
-    background: rgba(255, 255, 255, 0.85);
-    margin-bottom: 0.8rem;
-    padding: 0.9rem;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
 ul li:hover {
-    transform: scale(1.08);
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 1);
 }
 
 /* Links */
@@ -99,35 +101,39 @@ a:hover {
 dl dt {
     font-weight: bold;
     color: #222;
-    margin-top: 1.2rem;
-    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
 }
 
 dl dd {
-    margin-left: 1.8rem;
+    margin-left: 2rem;
     color: #444;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 /* Blockquote */
 blockquote {
     font-style: italic;
     color: #222;
-    border-left: 5px solid #de3c4b;
-    padding-left: 1.2rem;
-    margin-top: 2.5rem;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 1.2rem;
-    border-radius: 10px;
+    border-left: 6px solid #de3c4b;
+    padding-left: 1.5rem;
+    margin-top: 3rem;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 12px;
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
     section {
-        padding: 1.8rem;
+        padding: 2rem;
     }
     
     header {
-        padding: 1.8rem;
+        padding: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
     }
 }
