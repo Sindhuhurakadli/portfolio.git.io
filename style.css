@@ -8,7 +8,7 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     margin: 0;
     padding: 20px;
     display: flex;
@@ -33,7 +33,7 @@ section {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #ff6f61, #de3c4b);
+    background: linear-gradient(135deg, #009688, #26c6da);
     color: white;
     padding: 3rem;
     border-radius: 20px;
@@ -55,7 +55,7 @@ header p {
 
 /* Section Titles */
 h2 {
-    color: #de3c4b;
+    color: #1e3c72;
     margin-bottom: 1.5rem;
     font-size: 2rem;
     border-bottom: 4px solid white;
@@ -86,7 +86,7 @@ ul li:hover {
 
 /* Links */
 a {
-    color: #de3c4b;
+    color: #009688;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
@@ -94,7 +94,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #c32f3b;
+    color: #00796b;
 }
 
 /* Definition List */
@@ -115,7 +115,7 @@ dl dd {
 blockquote {
     font-style: italic;
     color: #222;
-    border-left: 6px solid #de3c4b;
+    border-left: 6px solid #009688;
     padding-left: 1.5rem;
     margin-top: 3rem;
     background: rgba(255, 255, 255, 0.9);
