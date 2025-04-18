@@ -1,124 +1,678 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Sindhu Hurakadli</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            text-align: center;
-            color: black;
-        }
-        header {
-            padding: 50px 20px;
-            background: rgba(0, 0, 0, 0.3);
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-        }
-        h1 {
-            font-size: 2.5em;
-        }
-        p {
-            font-size: 1.2em;
-        }
-        section {
-            padding: 40px 20px;
-        }
-        h2 {
-            border-bottom: 3px solid white;
-            display: inline-block;
-            padding-bottom: 5px;
-            margin-bottom: 20px;
-        }
-        ul, dl {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-            max-width: 600px;
-            margin: auto;
-        }
-        ul li, dt, dd {
-            font-size: 1.1em;
-            padding: 8px 0;
-            color: balck;
-        }
-        a {
-            color: yellow;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-        a:hover {
-            color: cyan;
-        }
-        blockquote {
-            font-style: italic;
-            font-size: 1.3em;
-            margin-top: 30px;
-            opacity: 0.8;
-        }
-        .icon {
-            font-size: 1.5em;
-            margin-right: 8px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Sindhu Hurakadli | Software Developer</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sindhu Hurakadli | Software Developer" />
+  <meta property="og:description" content="Software Developer" />
+  <meta property="og:url" content="https://github.com/Sindhuhurakadli" />
+  <meta property="og:site_name" content="Sindhu Hurakadli | Software Developer" />
 </head>
+
 <body>
-    <header>
-        <h1>Hello, I'm Sindhu👋</h1>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
-    </header>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
 
-    <section>
-        <h2>🛠️ Projects</h2>
-        <ul>
-            <li><strong> Histopathological Breast Cancer Cell Image Classification using MobileNetV4
- Architecture</strong> • Developed a breast cancer classification model using MobileNetv4 and deep learning to distinguish between
- benign and malignant Histopathological images with a precision of 90 87%
- • Implemented data augmentation and transfer learning to enhance performance and optimize the model for
- real-time edge device deployment in low-resource environments.
- • Compared computational efficiency and accuracy with ResNet50, DenseNet, and EfficientNet, ensuring a
- lightweight but effective AI-driven diagnostic solution.
- • Technologies: Python, Keras, Deep Learning, Data Augmentation.</li>
-            <li><strong> Online Shopping Platform</strong>  • Developed a console-based on-line shopping system using C++ and object-oriented programming (OOP)
- principles, including inheritance, polymorphism, and encapsulation for scalability.
- • Implemented user authentication, product management, shopping cart, and order processing to facilitate
- seamless shopping experiences.
- • Ensured error handling, user-friendly menus, and input validation for smooth and efficient system operation.
- • Technologies: C++, OOP, File Handling, Exception Handling</li>
-        </ul>
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
 
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, JavaScript</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Development (React.js, Node.js)</li>
-        </ul>
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="assets/img/Me.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
 
-        <h2>🌐 Find Me Online</h2>
-        <ul>
-            <li><i class="fab fa-github icon"></i><a href="https://www.linkedin.com/in/sindhu-hurakadli-022302263/" target="_blank">GitHub</a></li>
-            <li><i class="fab fa-linkedin icon"></i><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-        </ul>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#domain" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Domain</span></a>
+      </li>
 
-        <h2>📜 Portfolio Details</h2>
-        <dl>
-            <dt>Course Name:</dt> <dd>Algorithmic Problem Solving</dd>
-            <dt>Course Code:</dt> <dd>Course Code Placeholder</dd>
-            <dt>Name:</dt> <dd>Sindhu</dd>
-            <dt>SRN:</dt> <dd>01FE22BCS216</dd>
-            <dt>Course Instructor:</dt> <dd>Prakash Hegde</dd>
-            <dt>University:</dt> <dd>Kle Technological University, Hubli</dd>
-<!--             <dt>Portfolio Topic/Domain:</dt> <dd>Google</dd> -->
-        </dl>
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
 
-        <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Sindhu
+        Hurakadli</a><span class="black-text">Software Developer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#domain" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Domian</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Sindhu Hurakadli</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and
+                challenging real-world problems.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/sindhu-hurakadli-022302263/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/Sindhuhurakadli" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+              <!-- <a href="https://angel.co/u/varad_bhogayata" target="_blank">
+                <button class="icon-btn angellist">
+                  <i class="fa fa-angellist"></i>
+                </button>
+              </a> -->
+
+              <!-- <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
+                  </span>
+              </a> -->
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+
+        <p>
+           I am a Computer Science Grad Student at Arizona State University. I enjoy problem-solving and coding. Always
+          strive to bring 100% to the work I do.
+          <br>
+                      I have worked on technologies like C, C++, HTML, CSS, Basic Python during my bachelor's.
+                      I am passionate about developing complex applications that solve real-world problems impacting
+          millions of users.
+          <br>I have studied data structures and algorithms, object-oriented programming, operating
+          systems, computer networks, and machine learning.
+        </p>
+        <p>
+        <ul>
+          <li><b>Languages:</b> C, C++, HTML, CSS, Basic Python</li>
+          <li><b>Developer Tools:</b> VS Code, Git, CodeBlocks</li>
+          <li><b>Coursework:</b> Data Structures and Algorithms, Object-Oriented Programming, Operating Systems,
+            Computer Networks, Machine Learning</li>
+          <li><b>Soft Skills:</b> Communication, Leadership, Team Collaboration, Analytical Thinking, Adaptability, Time
+            Management</li>
+
+        </ul>
+
+        </p>
+        <p>
+          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering,
+          which provides professional development, interesting experiences and personal growth.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="domain" class="section scrollspy">
+      <h3 class="page-title white-text teal">Domain and Business Studies</h3>
+      <div class="container">
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+          <title>Microsoft Card</title>
+        </head>
+
+        <body style="margin: 0; padding: 40px; background-color: #f9fafb; font-family: 'Segoe UI', Arial, sans-serif;">
+
+          <div
+            style="display: flex; align-items: flex-start; background: white; padding: 24px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); max-width: 900px; margin: auto;">
+
+            <!-- Icon -->
+            <div
+              style="flex-shrink: 0; width: 56px; height: 56px; border-radius: 50%; background-color: #0078D4; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: bold; color: white; margin-right: 20px;">
+              M
+            </div>
+
+            <!-- Content -->
+            <div>
+              <h2 style="margin: 0 0 12px 0; font-size: 22px; color: #1a1a1a;">Microsoft</h2>
+              <p style="margin: 0; font-size: 16px; line-height: 1.7; color: #333;">
+                Microsoft is a global leader in technology, known for its innovation in software, cloud computing,
+                artificial intelligence, hardware, and services. Renowned for its flagship products like Windows, Office
+                Suite, and Azure, Microsoft plays a pivotal role in shaping the digital landscape. The company focuses
+                on empowering individuals and organizations through technology, offering solutions that range from
+                personal computing to enterprise-grade cloud infrastructure. With a strong emphasis on AI, machine
+                learning, and quantum computing, Microsoft is driving the future of intelligent systems and business
+                transformation. Through products like Microsoft 365, LinkedIn, and Xbox, Microsoft continues to lead in
+                providing productivity tools, social platforms, and entertainment experiences that impact billions of
+                users globally.
+              </p>
+            </div>
+
+          </div>
+
+        </body>
+        <br>
+        <br>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
+
+          <!-- Dragon Copilot Card -->
+          <div
+            style="max-width: 320px; background-color: #ffffff; padding: 24px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); color: #1a1a1a; font-family: 'Segoe UI', Arial, sans-serif;">
+            <div
+              style="width: 60px; height: 60px; border-radius: 50%; background-color: #0078D4; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 30px; color: white;">
+              🗣️</div>
+            <h2 style="margin: 0; font-size: 20px; font-weight: 600;">Dragon Copilot</h2>
+            <h3 style="margin: 4px 0 16px 0; font-size: 16px; font-weight: 400; color: #555;">Microsoft's Unified Voice
+              AI for Healthcare</h3>
+            <p style="font-size: 14px; color: #444; line-height: 1.6;">
+              Dragon Copilot is the healthcare industry's first unified voice AI assistant. It enables clinicians to
+              streamline clinical documentation, surface insights, and automate tasks—improving care delivery and
+              operational efficiency.
+            </p>
+            <div style="display: flex; justify-content: space-between; margin: 20px 0;">
+              <div>
+                <div style="color: #0078D4; font-size: 18px; font-weight: bold;">$3.5B</div>
+                <div style="font-size: 12px; color: #777;">Market Potential</div>
+              </div>
+              <div>
+                <div style="color: #0078D4; font-size: 18px; font-weight: bold;">3–5 Years</div>
+                <div style="font-size: 12px; color: #777;">ROI Timeline</div>
+              </div>
+            </div>
+            <ul style="list-style: none; padding: 0; font-size: 14px; color: #333; margin-bottom: 20px;">
+              <li style="margin-bottom: 8px;">✓ Real-time voice-to-text documentation</li>
+              <li style="margin-bottom: 8px;">✓ Personalized clinical workflow assistance</li>
+              <li style="margin-bottom: 8px;">✓ Seamless EHR integration</li>
+              <li>✓ AI-driven decision support and alerts</li>
+            </ul>
+            <a href="https://news.microsoft.com/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task/"
+              target="_blank" style="font-size: 14px; color: #0078D4; text-decoration: none; font-weight: 500;">View
+              Detailed Analysis →</a>
+          </div>
+
+          <!-- Agri AI Card -->
+          <div
+            style="max-width: 320px; background-color: #ffffff; padding: 24px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); color: #1a1a1a; font-family: 'Segoe UI', Arial, sans-serif;">
+            <div
+              style="width: 60px; height: 60px; border-radius: 50%; background-color: #0078D4; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 30px; color: white;">
+              🌾</div>
+            <h2 style="margin: 0; font-size: 20px; font-weight: 600;">AI in Agriculture</h2>
+            <h3 style="margin: 4px 0 16px 0; font-size: 16px; font-weight: 400; color: #555;">Satya Nadella highlights
+              AI’s real-world impact</h3>
+            <p style="font-size: 14px; color: #444; line-height: 1.6;">
+              A fantastic example of how AI is transforming agriculture—enabling farmers to make better decisions,
+              optimize yield, and promote sustainability. Microsoft’s AI tools empower local communities with
+              data-driven farming insights.
+            </p>
+            <div style="display: flex; justify-content: space-between; margin: 20px 0;">
+              <div>
+                <div style="color: #0078D4; font-size: 18px; font-weight: bold;">+45%</div>
+                <div style="font-size: 12px; color: #777;">Crop Yield Boost</div>
+              </div>
+              <div>
+                <div style="color: #0078D4; font-size: 18px; font-weight: bold;">$2B+</div>
+                <div style="font-size: 12px; color: #777;">AI AgTech Market</div>
+              </div>
+            </div>
+            <ul style="list-style: none; padding: 0; font-size: 14px; color: #333; margin-bottom: 20px;">
+              <li style="margin-bottom: 8px;">✓ AI-powered crop disease detection</li>
+              <li style="margin-bottom: 8px;">✓ Precision farming with satellite data</li>
+              <li style="margin-bottom: 8px;">✓ Climate-smart recommendations</li>
+              <li>✓ Empowerment of smallholder farmers</li>
+            </ul>
+            <a href="https://www.linkedin.com/posts/satyanadella_afantasticexample-of-ais-impact-on-agriculture-activity-7299602990728982528-86hu"
+              target="_blank" style="font-size: 14px; color: #0078D4; text-decoration: none; font-weight: 500;">View
+              Satya’s Post →</a>
+          </div>
+
+          <!-- Quantum Computing Card -->
+          <div
+            style="max-width: 320px; background-color: #ffffff; padding: 24px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); color: #1a1a1a; font-family: 'Segoe UI', Arial, sans-serif;">
+            <div
+              style="width: 60px; height: 60px; border-radius: 50%; background-color: #0078D4; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 30px; color: white;">
+              ⚛️</div>
+            <h2 style="margin: 0; font-size: 20px; font-weight: 600;">Quantum Computing</h2>
+            <h3 style="margin: 4px 0 16px 0; font-size: 16px; font-weight: 400; color: #555;">Satya Nadella shares key
+              reflections on progress</h3>
+            <p style="font-size: 14px; color: #444; line-height: 1.6;">
+              Microsoft is making major strides in quantum computing—from building scalable systems to developing
+              error-correcting qubits. Satya Nadella reflects on the breakthroughs that are shaping the next wave of
+              computing innovation.
+            </p>
+            <div style="display: flex; justify-content: space-between; margin: 20px 0;">
+              <div>
+                <div style="color: #0078D4; font-size: 18px; font-weight: bold;">1M+</div>
+                <div style="font-size: 12px; color: #777;">Logical Qubits Goal</div>
+              </div>
+              <div>
+                <div style="color: #0078D4; font-size: 18px; font-weight: bold;">2030</div>
+                <div style="font-size: 12px; color: #777;">Scalable Roadmap</div>
+              </div>
+            </div>
+            <ul style="list-style: none; padding: 0; font-size: 14px; color: #333; margin-bottom: 20px;">
+              <li style="margin-bottom: 8px;">✓ Topological qubits in development</li>
+              <li style="margin-bottom: 8px;">✓ Azure Quantum platform expanding</li>
+              <li style="margin-bottom: 8px;">✓ Breakthroughs in quantum error correction</li>
+              <li>✓ Open-source tools for researchers</li>
+            </ul>
+            <a href="https://www.linkedin.com/posts/satyanadella_a-couple-reflections-on-the-quantum-computing-activity-7298008744133595140-a6YV"
+              target="_blank" style="font-size: 14px; color: #0078D4; text-decoration: none; font-weight: 500;">View
+              Satya’s Post →</a>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/online.jpg" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline"> Online Shopping System <i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Console-based online shopping system
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> C++, OOP, File Handling, Exception Handling.</li>
+                  <li> A console-based online shopping system using C++ and object-oriented programming
+                    principles for scalability.</li>
+                  <li> Implemented user authentication, product management, shopping cart, and order processing to
+                    facilitate
+                    seamless shopping experiences.</li>
+                  <li>Create multiple playlists and add/remove songs to/from playlist.</li>
+                  <li> Ensured error handling, user-friendly menus, and input validation for smooth and efficient system
+                    operation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/his.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Image Classification<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Histopathological Breast Cancer Cell Image Classification using MobileNetV4
+                  Architecture
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, Keras, Deep Learning, Data Augmentation.</li>
+                  <li> Developed a breast cancer classification model using MobileNetv4 and deep learning to distinguish
+                    between
+                    benign and malignant Histopathological images with a precision of 90 87%.</li>
+                  <li> Implemented data augmentation and transfer learning to enhance performance and optimize the model
+                    for
+                    real-time edge device deployment in low-resource environments.</li>
+                  <li>Compared computational efficiency and accuracy with ResNet50, DenseNet, and EfficientNet</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/QuizUp"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="/assets/img/Image_Resolution.jpg"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Image Reconstruction<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Optimizing High-Resolution Image Reconstruction Using Multigrain Attention Mechanisms
+                  and Swin Transformers
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, Keras, Deep Learning, Data Augmentation</li>
+                  <li>Developed a high-resolution image reconstruction system using Swin Transformers integrated with a
+                    multigrain attention mechanism to capture both fine and global image details.</li>
+                  <li>Incorporated sinusoidal positional encoding and a wavelet-based discriminator to improve spatial
+                    consistency and reduce common image artifacts like blocking and blurring.</li>
+                  <li>Implemented a modular GAN-based framework with progressive upsampling and AdaIN-based style
+                    control, scaling images from 256×256 to 1024×1024 while preserving texture and structure.</li>
+                  <li>Trained and evaluated the model using the FFHQ dataset, achieving superior FID scores compared to
+                    previous GAN and CNN architectures for realistic face image synthesis.</li>
+                  <li>Optimized the architecture for efficient GPU usage (V100, 32GB) in Google Colab and ensured
+                    real-time scalability for medical, satellite, and advanced imaging applications.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages and Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/c.jpg" class="responsive-img" />C++
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.kletech.ac.in/" target="_blank"
+                      class="teal-text hoverline">KLE Technological University</a></span>
+                </p>
+                <p>
+                  <b>Degree: </b>Bachelors in Computer Science
+                  <br>
+                  <b>CGPA: </b>8.98/10.00
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Data structures and Algorithms</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Computer
+                      Networks</li>
+                    <li> Machine Learning</li>
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Sindhu" data-position="top" data-tooltip="Call Sindhu"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Sindhu">+917406344669</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Sindhu" href="mailto:sindhuhurakadli49@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Sindhu" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Sindhu" href="mailto:sindhuhurakadli49@gmail.com"
+              class="hoverline">sindhuhurakadli49@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Sindhu on GitHub" href="https://github.com/Sindhuhurakadli" target="_blank"
+            data-position="top" data-tooltip="View Sindhu on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Sindhu on Github" href="https://github.com/Sindhuhurakadli" class="hoverline"
+              target="_blank">github.com/Sindhuhurakadli</a></a>
+        </p>
+        <p>
+          <a aria-label="View Sindhu on LinkedIn" href="https://www.linkedin.com/in/sindhu-hurakadli-022302263/"
+            target="_blank" data-position="top" data-tooltip="View Sindhu on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Sindhu on LinkedIn"
+              href="https://www.linkedin.com/in/sindhu-hurakadli-022302263/" class="hoverline"
+              target="_blank">linkedin.com/in/sindhu-hurakadli-022302263/</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing', {
+      strings: ["Problem Solver", "Tech Enthusiast", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
 </body>
+
 </html>
